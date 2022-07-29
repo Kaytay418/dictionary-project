@@ -1,15 +1,21 @@
 body {
-  background: #e8e4fd;
+  background: radial-gradient(506px at 50% 15%, #fffeff 5%, #d7fffe 100%);
+  font-family: "Courier New", Courier, monospace;
 }
 
 a {
-  color: #6549f2;
+  color: rgb(116, 80, 202);
 }
 
 h1 {
   color: #fff;
-  text-shadow: 5px 5px 10px #6549f2;
+  text-shadow: 5px 5px 5px #000;
   font-size: 60px;
+}
+
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .App-header {

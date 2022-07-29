@@ -1,5 +1,6 @@
 .phonetic {
   margin-bottom: 20px;
+  letter-spacing: 0.5px;
 }
 
 .phonetic a {
@@ -8,7 +9,7 @@
   padding: 10px 24px;
   border-radius: 20px;
   transition: all 150ms ease-in-out;
-  font-size: 12px;
+  font-size: 14px;
   margin-right: 10px;
 }
 
