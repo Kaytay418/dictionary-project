@@ -6,13 +6,30 @@ function App() {
     <div className="App">
       <div className="container">
         <header className="App-header">
-          <h1>Dictionary App</h1>
+          <h1>Dictionary</h1>
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyWord="snow" />
         </main>
         <footer className="App-footer">
-          <small>Coded by Katie Latham</small>
+          <small>
+            Open-source{" "}
+            <a
+              href="https://github.com/Kaytay418/dictionary-project"
+              target="_blank"
+              rel="noreferrer"
+            >
+              code
+            </a>{" "}
+            by{" "}
+            <a
+              href="https://www.katie-latham.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Katie Latham
+            </a>
+          </small>
         </footer>
       </div>
     </div>

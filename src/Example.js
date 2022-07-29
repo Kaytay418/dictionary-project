@@ -1,13 +1,9 @@
 import React from "react";
+import "./Meaning.css";
 
 export default function Example(props) {
   if (props.example) {
-    return (
-      <div>
-        <strong>Example:</strong>
-        <div className="example">{props.example}</div>
-      </div>
-    );
+    return <div className="example">"{props.example}"</div>;
   } else {
     return null;
   }

@@ -1,6 +1,23 @@
+body {
+  background: #e8e4fd;
+}
+
+a {
+  color: #6549f2;
+}
+
+h1 {
+  color: #fff;
+  text-shadow: 5px 5px 10px #6549f2;
+  font-size: 60px;
+}
+
 .App-header {
   text-align: center;
-  margin-top: 30px;
+  padding: 70px;
+  border-radius: 8px;
+  margin: 100px 50px 50px;
+  background-image: url("background.jpg");
 }
 
 .App-footer {

@@ -1,11 +1,18 @@
-.dictionary form {
-  text-align: center;
+.dictionary section {
+  background: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0px 6px 15px rgb(0, 0, 0, 0.3);
+  margin: 50px;
+}
+.dictionary input {
+  width: 100%;
+  padding: 6px 10px;
+  border-radius: 5px;
+  border: 2px solid rgb(181, 165, 229);
 }
 
-.search-bar {
-  margin-right: 10px;
-}
-
-.results h2 {
-  margin-top: 30px;
+.dictionary .hint {
+  font-size: 14px;
+  margin-top: 8px;
 }
